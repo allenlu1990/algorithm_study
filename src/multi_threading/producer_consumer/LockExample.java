@@ -2,6 +2,8 @@ package multi_threading.producer_consumer;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class LockExample {

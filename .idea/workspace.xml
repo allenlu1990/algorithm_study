@@ -20,16 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c77afa-c4f2-4bb7-a152-e1a95f1db48e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/multi_threading/communicate_thread/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multi_threading/communicate_thread/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multi_threading/communicate_thread/ThreadA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multi_threading/communicate_thread/ThreadB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multi_threading/producer_consumer/ArrayBlockingQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multi_threading/producer_consumer/LockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multi_threading/producer_consumer/SynchronizedExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyModel/Cglib代理/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyModel/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyModel/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyModel/jdk动态代理/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyModel/静态代理/ProxyUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingletonExamples/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingletonExamples/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingletonExamples/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingletonExamples/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm_study/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm_study/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm_study/algorithm_last/ReversedCoins.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm_study/algorithm_last/ReversedCoins.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm_study/multi_threading/communicate_thread/ThreadB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm_study/multi_threading/communicate_thread/ThreadB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm_study/multi_threading/producer_consumer/LockExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm_study/multi_threading/producer_consumer/LockExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm_study/multi_threading/producer_consumer/SynchronizedExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm_study/multi_threading/producer_consumer/SynchronizedExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multi_threading/producer_consumer/LockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multi_threading/producer_consumer/LockExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,25 +49,104 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multi_threading/producer_consumer/SynchronizedExample.java">
+        <entry file="file://$PROJECT_DIR$/src/SingletonExamples/EnumSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="63">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SingletonExamples/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyModel/IUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyModel/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyModel/静态代理/ProxyUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyModel/jdk动态代理/ProxyFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/multi_threading/producer_consumer/LockExample.java">
+        <entry file="file://$PROJECT_DIR$/src/ProxyModel/Cglib代理/ProxyFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="12" column="49" lean-forward="true" selection-end-line="52" />
+            <state relative-caret-position="588">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="738" column="35" selection-start-line="738" selection-start-column="24" selection-end-line="738" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -95,9 +178,21 @@
         <option value="$PROJECT_DIR$/src/multi_threading/communicate_thread/Run.java" />
         <option value="$PROJECT_DIR$/src/multi_threading/ThreadB.java" />
         <option value="$PROJECT_DIR$/src/multi_threading/producer_consumer/ArrayBlockingQueueExample.java" />
+        <option value="$PROJECT_DIR$/src/multi_threading/producer_consumer/SynchronizedExample.java" />
+        <option value="$PROJECT_DIR$/src/multi_threading/producer_consumer/AwaitExample.java" />
         <option value="$PROJECT_DIR$/src/multi_threading/communicate_thread/ThreadB.java" />
         <option value="$PROJECT_DIR$/src/multi_threading/producer_consumer/LockExample.java" />
-        <option value="$PROJECT_DIR$/src/multi_threading/producer_consumer/SynchronizedExample.java" />
+        <option value="$PROJECT_DIR$/src/multi_threading/SingletonExamples/LazySingleton.java" />
+        <option value="$PROJECT_DIR$/src/multi_threading/SingletonExamples/HungrySingleton.java" />
+        <option value="$PROJECT_DIR$/src/multi_threading/SingletonExamples/EnumSingleton.java" />
+        <option value="$PROJECT_DIR$/src/multi_threading/SingletonExamples/User.java" />
+        <option value="$PROJECT_DIR$/src/SingletonExamples/User.java" />
+        <option value="$PROJECT_DIR$/src/ProxyModel/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/ProxyModel/静态代理/ProxyDao.java" />
+        <option value="$PROJECT_DIR$/src/ProxyModel/静态代理/ProxyUserDao.java" />
+        <option value="$PROJECT_DIR$/src/ProxyModel/jdk动态代理/ProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/ProxyModel/Cglib代理/ProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/ProxyModel/UserDao.java" />
       </list>
     </option>
   </component>
@@ -127,21 +222,11 @@
               <item name="algorithm_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="multi_threading" type="462c0819:PsiDirectoryNode" />
+              <item name="ProxyModel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="multi_threading" type="462c0819:PsiDirectoryNode" />
-              <item name="communicate_thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="multi_threading" type="462c0819:PsiDirectoryNode" />
-              <item name="producer_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -159,9 +244,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638108130069" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638278063703" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30114943" />
   </component>
   <component name="RunDashboard">
@@ -176,20 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedExample">
-    <configuration name="ArrayBlockingQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multi_threading.producer_consumer.ArrayBlockingQueueExample" />
-      <module name="algorithm_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multi_threading.producer_consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProxyFactory (1)">
     <configuration name="LockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multi_threading.producer_consumer.LockExample" />
       <module name="algorithm_study" />
@@ -203,12 +275,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="ProxyFactory (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProxyModel.Cglib代理.ProxyFactory" />
       <module name="algorithm_study" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProxyModel.Cglib代理.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProxyModel.jdk动态代理.ProxyFactory" />
+      <module name="algorithm_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProxyModel.jdk动态代理.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -240,21 +328,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Run" />
-      <item itemvalue="Application.ArrayBlockingQueueExample" />
       <item itemvalue="Application.SynchronizedExample" />
       <item itemvalue="Application.LockExample" />
+      <item itemvalue="Application.ProxyFactory" />
+      <item itemvalue="Application.ProxyFactory (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyFactory (1)" />
+        <item itemvalue="Application.ProxyFactory" />
         <item itemvalue="Application.SynchronizedExample" />
         <item itemvalue="Application.LockExample" />
         <item itemvalue="Application.Run" />
-        <item itemvalue="Application.ArrayBlockingQueueExample" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -272,7 +363,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20451000" />
+    <option name="totallyTimeSpent" value="28868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -283,9 +374,9 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.31385282" weight="0.21001616" />
-      <window_info id="Structure" order="1" sideWeight="0.6861472" side_tool="true" weight="0.24959612" />
-      <window_info anchor="bottom" id="Terminal" weight="0.7328767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5637584" visible="true" weight="0.21001616" />
+      <window_info id="Structure" order="1" sideWeight="0.4362416" side_tool="true" weight="0.21001616" />
+      <window_info anchor="bottom" id="Terminal" weight="0.18356164" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32954547" />
@@ -293,8 +384,8 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6164383" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45342466" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15616438" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3479452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -316,9 +407,9 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.31385282" visible="true" weight="0.21001616" />
-      <window_info id="Structure" order="6" sideWeight="0.6861472" side_tool="true" weight="0.24959612" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.7328767" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.5637584" visible="true" weight="0.21001616" />
+      <window_info id="Structure" order="6" sideWeight="0.4362416" side_tool="true" visible="true" weight="0.21001616" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18356164" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32954547" />
@@ -326,7 +417,7 @@
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.18082191" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.6164383" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.45342466" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -498,32 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="305" column="30" selection-start-line="305" selection-start-column="30" selection-end-line="305" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="565" column="34" selection-start-line="565" selection-start-column="34" selection-end-line="565" selection-end-column="34" />
-          <folding>
-            <element signature="e#11804#16002#0" />
-            <element signature="e#22933#22934#0" expanded="true" />
-            <element signature="e#22965#22966#0" expanded="true" />
-            <element signature="e#29506#31216#0" />
-            <element signature="e#31222#32539#0" />
-            <element signature="e#32644#32645#0" expanded="true" />
-            <element signature="e#32694#32695#0" expanded="true" />
-            <element signature="e#32701#32953#0" />
-            <element signature="e#41392#41393#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -573,23 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/multi_threading/communicate_thread/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/multi_threading/communicate_thread/ThreadB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/multi_threading/communicate_thread/MyList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -635,44 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/multi_threading/communicate_thread/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="455" column="16" selection-start-line="455" selection-start-column="16" selection-end-line="455" selection-end-column="16" />
-          <folding>
-            <element signature="class#Sync#0;class#ReentrantLock#0" />
-            <element signature="docComment;method#lock#0;class#Sync#0;class#ReentrantLock#0" />
-            <element signature="docComment;method#nonfairTryAcquire#0;class#Sync#0;class#ReentrantLock#0" />
-            <element signature="method#nonfairTryAcquire#0;class#Sync#0;class#ReentrantLock#0" />
-            <element signature="method#tryRelease#0;class#Sync#0;class#ReentrantLock#0" />
-            <element signature="method#isHeldExclusively#0;class#Sync#0;class#ReentrantLock#0" />
-            <element signature="docComment;method#readObject#0;class#Sync#0;class#ReentrantLock#0" />
-            <element signature="method#readObject#0;class#Sync#0;class#ReentrantLock#0" />
-            <element signature="docComment;class#NonfairSync#0;class#ReentrantLock#0" />
-            <element signature="e#8176#8177#0" expanded="true" />
-            <element signature="e#8216#8217#0" expanded="true" />
-            <element signature="docComment;method#ReentrantLock#1;class#ReentrantLock#0" />
-            <element signature="docComment;method#lock#0;class#ReentrantLock#0" />
-            <element signature="docComment;method#lockInterruptibly#0;class#ReentrantLock#0" />
-            <element signature="docComment;method#tryLock#0;class#ReentrantLock#0" />
-            <element signature="docComment;method#tryLock#1;class#ReentrantLock#0" />
-            <element signature="e#15850#15851#0" expanded="true" />
-            <element signature="e#15881#15882#0" expanded="true" />
-            <element signature="docComment;method#newCondition#0;class#ReentrantLock#0" />
-            <element signature="docComment;method#getHoldCount#0;class#ReentrantLock#0" />
-            <element signature="docComment;method#isHeldByCurrentThread#0;class#ReentrantLock#0" />
-            <element signature="docComment;method#isLocked#0;class#ReentrantLock#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3">
@@ -694,12 +704,284 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/multi_threading/producer_consumer/LockExample.java">
+    <entry file="file://$PROJECT_DIR$/src/multi_threading/communicate_thread/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="12" column="49" lean-forward="true" selection-end-line="52" />
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multi_threading/communicate_thread/ThreadB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multi_threading/communicate_thread/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multi_threading/producer_consumer/AwaitExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6611">
+          <caret line="421" column="47" lean-forward="true" selection-start-line="421" selection-start-column="47" selection-end-line="421" selection-end-column="47" />
+          <folding>
+            <element signature="e#7757#7758#0" expanded="true" />
+            <element signature="e#7784#7785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="167" column="31" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
+          <folding>
+            <element signature="docComment;method#lock#0;class#Sync#0;class#ReentrantLock#0" />
+            <element signature="docComment;method#nonfairTryAcquire#0;class#Sync#0;class#ReentrantLock#0" />
+            <element signature="method#nonfairTryAcquire#0;class#Sync#0;class#ReentrantLock#0" />
+            <element signature="method#tryRelease#0;class#Sync#0;class#ReentrantLock#0" />
+            <element signature="method#isHeldExclusively#0;class#Sync#0;class#ReentrantLock#0" />
+            <element signature="e#5562#5563#0" expanded="true" />
+            <element signature="e#5614#5615#0" expanded="true" />
+            <element signature="docComment;method#readObject#0;class#Sync#0;class#ReentrantLock#0" />
+            <element signature="method#readObject#0;class#Sync#0;class#ReentrantLock#0" />
+            <element signature="docComment;class#NonfairSync#0;class#ReentrantLock#0" />
+            <element signature="e#8176#8177#0" expanded="true" />
+            <element signature="e#8216#8217#0" expanded="true" />
+            <element signature="docComment;method#ReentrantLock#1;class#ReentrantLock#0" />
+            <element signature="docComment;method#lock#0;class#ReentrantLock#0" />
+            <element signature="docComment;method#lockInterruptibly#0;class#ReentrantLock#0" />
+            <element signature="docComment;method#tryLock#0;class#ReentrantLock#0" />
+            <element signature="docComment;method#tryLock#1;class#ReentrantLock#0" />
+            <element signature="e#15850#15851#0" expanded="true" />
+            <element signature="e#15881#15882#0" expanded="true" />
+            <element signature="docComment;method#newCondition#0;class#ReentrantLock#0" />
+            <element signature="e#17535#17536#0" expanded="true" />
+            <element signature="e#17577#17578#0" expanded="true" />
+            <element signature="docComment;method#getHoldCount#0;class#ReentrantLock#0" />
+            <element signature="docComment;method#isHeldByCurrentThread#0;class#ReentrantLock#0" />
+            <element signature="docComment;method#isLocked#0;class#ReentrantLock#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1202">
+          <caret line="178" column="17" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.concurrent.locks.Condition</node>
+            <node x="" y="">java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7371731267832307" x="104.1775937306229" y="68.083071011235" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="353" column="21" selection-start-line="353" selection-start-column="21" selection-end-line="353" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="2038" column="30" selection-start-line="2038" selection-start-column="30" selection-end-line="2038" selection-end-column="30" />
+          <folding>
+            <element signature="e#11804#16002#0" />
+            <element signature="e#22933#22934#0" expanded="true" />
+            <element signature="e#22965#22966#0" expanded="true" />
+            <element signature="e#29506#31216#0" />
+            <element signature="e#31222#32539#0" />
+            <element signature="e#32644#32645#0" expanded="true" />
+            <element signature="e#32694#32695#0" expanded="true" />
+            <element signature="e#32701#32953#0" />
+            <element signature="e#41392#41393#0" expanded="true" />
+            <element signature="e#41449#41450#0" expanded="true" />
+            <element signature="e#71666#71740#0" />
+            <element signature="e#71816#72451#0" />
+            <element signature="e#73510#74915#0" />
+            <element signature="e#76036#76974#0" />
+            <element signature="e#77503#77891#0" />
+            <element signature="e#77901#78326#0" />
+            <element signature="e#79803#81680#0" />
+            <element signature="e#81690#83550#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="393" column="41" selection-start-line="393" selection-start-column="41" selection-end-line="393" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multi_threading/producer_consumer/LockExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingletonExamples/LazySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingletonExamples/HungrySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingletonExamples/EnumSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingletonExamples/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyModel/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="738" column="35" selection-start-line="738" selection-start-column="24" selection-end-line="738" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/cglib-3.1.jar!/net/sf/cglib/proxy/MethodInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/spring-core-5.3.2.jar!/org/springframework/cglib/proxy/Enhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4079">
+          <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+          <folding>
+            <element signature="e#4533#4534#0" expanded="true" />
+            <element signature="e#4556#4557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyModel/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyModel/静态代理/ProxyUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyModel/jdk动态代理/ProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyModel/Cglib代理/ProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -769,6 +1051,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>spring-core-5.3.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
