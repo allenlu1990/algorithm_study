@@ -1,7 +1,9 @@
 package multi_threading.producer_consumer;
 
 import java.util.ArrayDeque;
+import java.util.HashMap;
 import java.util.Queue;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class SynchronizedExample {
     private int queueSize = 10;
@@ -19,6 +21,7 @@ public class SynchronizedExample {
                             System.out.println("向队列插入一个元素，队列剩余空间：" + (example.queueSize - example.queue.size()));
                         }
                     }
+
                     int ran = (int) (Math.random() * 1000.0) + 1;
                     Thread.sleep(ran);
                 } catch (InterruptedException e) {
