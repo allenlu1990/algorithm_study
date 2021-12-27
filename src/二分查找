@@ -1,0 +1,94 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+/**
+ * @author allen
+ * @date 2021年12月27日 9:39
+ */
+public class Test {
+//    static Integer res = null;
+    static   List<Integer> res = new ArrayList<>();
+    public static void main(String[] args) {
+//        int[] A = {1,2,3,4,6,6,7,7,8,9,10};
+        int[] A = {1,2,3,4,6,6,7,7,7,7,7,7,7,7,8,9,10};
+//        int[] A = {1,2,3,4,6};
+        getNumber(A, 5, 0, A.length-1);
+        System.out.println(res);
+//        List<Integer> integers = get(A, 7);
+//        System.out.println(integers);
+    }
+    public static void getNumber(int[] A, int X, int start, int end){
+        int mid = (end + start) /2;
+        if(A[mid] == X ){
+//            res =  mid;
+            res.add(mid);
+            int center = mid;
+            while (start <= --center){
+                if(A[center] == X){
+                    res.add(center);
+                }else {
+                    break;
+                }
+            }
+
+            while (++mid <= end){
+                if(A[mid] == X){
+                    res.add(mid);
+                }else {
+                    break;
+                }
+            }
+            return;
+        }
+        if(end <= start){
+            return;
+        }
+
+        if(A[mid] > X){
+            getNumber(A, X, start, mid-1);
+        }
+        if(A[mid] < X){
+            getNumber(A, X, mid+1, end);
+        }
+
+    }
+
+    public static List<Integer> get(int[] A, int X){
+        int start =0;
+        int end = A.length-1;
+        List<Integer> res = new ArrayList<>();
+        while ( start <= end){
+            int mid = (end + start) /2;
+            if(A[mid] == X){
+                res.add(mid);
+                int center = mid;
+                while (start <= --center){
+                    if(A[center] == X){
+                        res.add(center);
+                    }else {
+                        break;
+                    }
+                }
+
+                while (++mid <= end){
+                    if(A[mid] == X){
+                        res.add(mid);
+                    }else {
+                        break;
+                    }
+                }
+
+                break;
+            }
+            if(A[mid] < X){
+                start = mid+1;
+            }
+            if(A[mid] > X){
+                end = mid-1;
+            }
+        }
+        return res;
+    }
+
+}
